@@ -1,0 +1,7 @@
+mvn archetype:generate -DgroupId=exgnosis -DartifactId=HelloWorld -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+ <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>??</maven.compiler.source>
+    <maven.compiler.target>??</maven.compiler.target>
+  </properties>
