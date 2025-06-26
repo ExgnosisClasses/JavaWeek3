@@ -6,9 +6,28 @@ In this lab you will use Gradle to build a simple Hello World Java application
 
 ## Lab Setup
 
-- Add gradle support to your VS Code by installing the plugin shown
+- Make sure gradle is installed on your system
 
-<img src="images/plugin.png">
+```console
+$ gradle -version
+
+------------------------------------------------------------
+Gradle 8.11
+------------------------------------------------------------
+
+Build time:    2024-11-11 13:58:01 UTC
+Revision:      b2ef976169a05b3c76d04f0fa76a940859f96fa4
+
+Kotlin:        2.0.20
+Groovy:        3.0.22
+Ant:           Apache Ant(TM) version 1.10.14 compiled on August 16 2023
+Launcher JVM:  21.0.6 (Red Hat, Inc. 21.0.6+7)
+Daemon JVM:    /usr/lib/jvm/java-21-openjdk (no JDK specified, using current Java home)
+OS:            Linux 6.14.3-200.fc41.x86_64 amd64
+
+```
+
+- If not, install it from here [gradle install](https://gradle.org/install/)
 
 
 ## Part 1: Directory Structure
